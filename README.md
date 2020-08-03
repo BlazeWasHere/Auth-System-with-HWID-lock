@@ -29,3 +29,11 @@ $ python3 test.py
 
 #### The client sends a POST data to the auth server, which if it is a success then checks if both hashes matches.
 #### If it does, then access is granted, else access is denied.
+
+## **Inserting Data**
+
+```
+$ python3 insert.py
+```
+
+#### Inserts name and key into the SQLite database and leaves the HWID as NULL for later usage.
